@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Página Chefe</title>
+</head>
+<body>
+<h1>Página do Chefe</h1>
+
+	<form class="boxChefe" action="CsvDAO" method="post">
+	<h1>Tela para Exportar o resultado</h1>
+	
+	<table class="tabela">
+				<tr>
+				<td><input type="submit" onClick="alteracao()" value="Exportar"/></td>
+					<td><input type="submit" onclick="redirecionar()"  value="Sair" /></td>
+				</tr>
+			</table>
+	
+		</form>
+		
+		<script type="text/javascript">
+	function redirecionar() {
+  	  alert("Obrigada por colaborar com a votação.");
+        window.location.href = "login.jsp";
+     }
+	</script>
+
+</body>
+</html>

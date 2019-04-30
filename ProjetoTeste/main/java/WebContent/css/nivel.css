@@ -1,0 +1,63 @@
+@charset "ISO-8859-1";
+
+body {
+	 margin: 0;
+	 padding: 0;
+	 font-family: sans-serif;
+	 background: #5e6c7a;
+}
+.boxNivel h1{
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 500;
+}
+.boxNivel{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #3498db;
+	padding: 14px 10px;
+	width: 300px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+transition: 0,25s; 
+}
+.boxNivel{
+	width: 300px;
+	padding: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #191919;
+	text-align: center;
+	border-radius: 10px;
+}
+.boxNivel input[type = "submit"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #44b7ff;
+	padding: 14px 10px;
+	outline: none;
+	color: white;
+	border-radius: 20px;
+	transition: 0,25s;
+	cursor: pointer; 
+}
+	.boxNivel input[type = "submit"]{
+	background: #44b7ff;
+	text-align: center;
+}
+.basic {
+	width: 200px;
+	text-align: center;
+	height: 35px;
+	background: #7d8991
+}
